@@ -1,0 +1,2 @@
+# MultiTranslator
+複数言語や複数サービスで翻訳できるChrome拡張機能
