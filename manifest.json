@@ -1,0 +1,20 @@
+{
+    "name": "マルチ翻訳者",
+    "description": "複数の言語で一斉翻訳します",
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "side_panel": {
+        "default_path": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "contextMenus", "sidePanel"],
+    "host_permissions": [
+        "https://api-free.deepl.com/*",
+        "https://api.deepl.com/*"
+    ]
+}
